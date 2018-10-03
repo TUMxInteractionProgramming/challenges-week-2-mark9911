@@ -1,0 +1,119 @@
+/*Global*/
+/* #2 #colorful #palette is:
+ * Background: #F5F5F5 (GREY 100)
+ * Primary Text: black
+ * Primary color: #3F51B5 (INDIGO)
+ * Primary color_text : white
+ * Accent color: #CDDC39 (LIME)
+ * Accent color_text: black
+*/
+
+/*global styles */
+* {
+    /* #2 #font #faces */
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+button {
+/* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+}
+
+a:active {
+    color: blue;
+}
+
+.selected {
+    border-top-color: 4px, solid, #3F51B5;
+}
+
+#tab-bar button {
+    /* #2 #colourful #plusfive */
+        background-color: white;
+        color: black;
+        width: 33%;
+        height: 72px;
+        padding: 16px;
+    }
+
+button, strong {
+/* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+/* #2 #font capital #letters */
+    text-transform: uppercase;
+}
+ 
+/*App bar*/
+h1 {
+    background-color: #3F51B5;
+    color: white;
+}
+/*Channels list*/
+li {
+    /* #2 #colorful #channelandchat */
+    font-size: 16px;
+    background-color: white;
+    padding: 8px;
+    margin-top: 2px;
+    margin-bottom: 2px
+
+}
+
+/*Tab bar*/
+#tab-bar {
+    background-color: white;
+    border: 0px;
+    font-size: 13px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+}
+
+
+/*Messeges*/
+
+ /* own message class */
+.own {
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 17.5%;
+}
+
+ /* message class */
+.message {
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+
+p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding: 16px;
+}
+
+h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+/* visited link */
+a:visited {
+    color: limegreen;
+} 
